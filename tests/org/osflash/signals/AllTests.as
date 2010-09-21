@@ -1,5 +1,8 @@
 package org.osflash.signals
 {
+	import org.osflash.signals.free.FreeSignalArgsTest;
+	import org.osflash.signals.free.FreeSignalTargetTest;
+	import org.osflash.signals.free.FreeSignalTest;
 	import org.osflash.signals.natives.AmbiguousRelationshipInNativeSignalTest;
 	import org.osflash.signals.natives.NativeMappedSignalBoundaryUseTest;
 	import org.osflash.signals.natives.NativeMappedSignalDefaultsTest;
@@ -33,12 +36,16 @@ package org.osflash.signals
 		public var _DeluxeSignalWithBubblingEventTest:DeluxeSignalWithBubblingEventTest;
 		public var _DeluxeSignalWithCustomEventTest:DeluxeSignalWithCustomEventTest;
 		public var _DeluxeSignalWithGenericEventTest:DeluxeSignalWithGenericEventTest;
-		
+
 		public var _SignalDispatchExtraArgsTest:SignalDispatchArgsTest;
 		public var _SignalDispatchNoArgsTest:SignalDispatchNoArgsTest;
 		public var _SignalDispatchNonEventTest:SignalDispatchNonEventTest;
 		public var _SignalSplitInterfacesTest:SignalSplitInterfacesTest;
 		public var _SignalTest:SignalTest;
 		public var _SignalWithCustomEventTest:SignalWithCustomEventTest;
+
+		public var _FreeSignalTest:FreeSignalTest;
+		public var _FreeSignalTargetTest:FreeSignalTargetTest;
+		public var _FreeSignalArgsTest:FreeSignalArgsTest;
 	}
 }
