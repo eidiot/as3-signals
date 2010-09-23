@@ -30,7 +30,7 @@ package org.osflash.signals
 		 */
 		public function FreeSignalBase()
 		{
-			_valueClasses = [];
+			_valueClasses = [this["constructor"] as Class];
 			listeners = [];
 			onceListeners = new Dictionary();
 		}
